@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>パーセント計算</title>
+		<script src="calcs.js"></script>
+	</head>
+	<body>
+		<form id="abform">
+			<label>A<input type="text" id="atext" value="100">　　</label>
+			<label>B<input type="text" id="btext" value="50"></label>
+		</form>
+
+		<p>指定数値のx%分の値を求める(A:数値  B:パーセント)</p>
+		<input type="button" value="計算" onclick="perValue();">
+
+		<p>パーセントを求める(A:比べる数  B:元にする数)</p>
+		<input type="button" value="計算" onclick="findPercent();">
+
+		<p>指定された数値に対してx%分足す&引く(A:数値 B:バーセント)</p>
+		<input type="button" value="計算" onclick="perCalcAdd();">
+	</body>
+</html>
